@@ -3,6 +3,7 @@ def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   index = 0
   matched_array = true
+  while matched_array = true do
   for i in (1..arr.length).to_a do
     
   puts "Sorting on index #{index}"
