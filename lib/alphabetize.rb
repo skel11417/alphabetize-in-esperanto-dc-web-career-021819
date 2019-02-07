@@ -10,7 +10,6 @@ def alphabetize(arr)
     if a != b
       matched_array = false
     else
-      index += 1
     end
   end
   puts "Sorting on index #{index}"
