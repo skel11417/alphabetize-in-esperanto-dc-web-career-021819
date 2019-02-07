@@ -5,8 +5,8 @@ def alphabetize(arr)
   matched = true
   while matched == true do
     collection = []
-    for index in (1..arr.length).to_a do
-      collection << arr[index]
+    arr.each {|phrase| collection << phrase[index]
+      collection << arr[index][sort_on]
     end
     binding.pry
     unique_letters = collection.uniq
