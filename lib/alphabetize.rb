@@ -3,9 +3,10 @@ def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   index = 0
   matched_array = true
-  # while matched_array = true do
+  # while matched = true do
   collection = array
   for i in (1..arr.length).to_a do
+    collection <<
 
   arr.sort_by {|word| alphabet.index(word[index])}
 end
