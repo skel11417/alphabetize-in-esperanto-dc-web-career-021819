@@ -9,6 +9,7 @@ def alphabetize(arr)
     end
     unique_letters = collection.uniq
     unique_letters.length > 1 ? matched = false : index += 1
+  end
 
   arr.sort_by {|word| alphabet.index(word[index])}
 end
