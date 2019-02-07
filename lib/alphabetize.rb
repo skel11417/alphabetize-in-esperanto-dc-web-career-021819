@@ -6,8 +6,6 @@ def alphabetize(arr)
   while matched == true do
     collection = []
     arr.each { |phrase| collection << phrase[index] }
-      collection << arr[index][sort_on]
-    end
     binding.pry
     unique_letters = collection.uniq
     unique_letters.length > 1 ? matched = false : index += 1
