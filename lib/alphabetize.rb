@@ -8,6 +8,7 @@ def alphabetize(arr)
     for item in (1..arr.length).to_a do
       collection << item[index]
     end
+    binding.pry
     unique_letters = collection.uniq
     unique_letters.length > 1 ? matched = false : index += 1
   end
