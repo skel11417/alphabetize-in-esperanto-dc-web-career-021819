@@ -4,6 +4,7 @@ def alphabetize(arr)
   index = 0
   matched = true
   while matched = true do
+    collection = []
     for item in (1..arr.length).to_a do
       collection << item[index]
     end
