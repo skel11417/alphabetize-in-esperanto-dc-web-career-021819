@@ -2,12 +2,13 @@ require 'pry'
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   index = 0
-  matched_array = true
+  matched = true
   # while matched = true do
     for item in (1..arr.length).to_a do
       collection << item[index]
     end
     unique_letters = collection.uniq
+    unique_letters.length > 1 matched
 
   arr.sort_by {|word| alphabet.index(word[index])}
 end
