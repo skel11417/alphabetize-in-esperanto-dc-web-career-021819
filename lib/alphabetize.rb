@@ -5,7 +5,7 @@ def alphabetize(arr)
   matched = true
   while matched == true do
     collection = []
-    arr.each {|phrase| collection << phrase[index] }
+    arr.each { |phrase| collection << phrase[index] }
       collection << arr[index][sort_on]
     end
     binding.pry
