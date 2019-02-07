@@ -7,7 +7,7 @@ def alphabetize(arr)
     for item in (1..arr.length).to_a do
       collection << item[index]
     end
-    unique_letters = collection.uniq.len
+    unique_letters = collection.uniq
 
   arr.sort_by {|word| alphabet.index(word[index])}
 end
