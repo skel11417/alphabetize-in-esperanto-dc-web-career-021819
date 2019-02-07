@@ -5,7 +5,7 @@ def alphabetize(arr)
   matched = true
   while matched == true do
     collection = []
-    for item in (1..arr.length).to_a do
+    for index in (1..arr.length).to_a do
       collection << arr[index]
     end
     binding.pry
