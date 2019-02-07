@@ -5,7 +5,8 @@ def alphabetize(arr)
   matched_array = true
   # while matched = true do
     for item in (1..arr.length).to_a do
-      collection << 
+      collection << item[index]
+    end
 
   arr.sort_by {|word| alphabet.index(word[index])}
 end
