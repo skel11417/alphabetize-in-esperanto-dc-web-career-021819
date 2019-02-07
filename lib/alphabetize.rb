@@ -7,10 +7,13 @@ def alphabetize(arr)
     a = arr.sort_by {|word| alphabet.index(word[index])}
     b = arr.sort_by {|word| alphabet.index(word[index + 1])}
     puts "Compare\n#{a}\n#{b} on index #{index}"
-    if a != b
+    if a != b == 0
       matched_array = false
+    elsif a !=b && index > 0
+      matched_array = false
+      index += 1
     else
-      
+      index += 1
     end
   end
   puts "Sorting on index #{index}"
