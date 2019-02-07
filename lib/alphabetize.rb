@@ -1,7 +1,7 @@
 require 'pry'
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  sort_on = 0
+  index = 0
   matched = true
   while matched == true do
     collection = []
