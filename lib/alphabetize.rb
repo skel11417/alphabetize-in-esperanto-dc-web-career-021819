@@ -6,7 +6,7 @@ def alphabetize(arr)
   while matched == true do
     collection = []
     for item in (1..arr.length).to_a do
-      collection << item[index]
+      collection << arr[index]
     end
     binding.pry
     unique_letters = collection.uniq
