@@ -3,7 +3,7 @@ def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   index = 0
   matched = true
-  while matched = true do
+  while matched == true do
     collection = []
     for item in (1..arr.length).to_a do
       collection << item[index]
